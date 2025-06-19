@@ -1,7 +1,13 @@
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400..900&display=swap");
-
 @import "tailwindcss";
 @config "../../tailwind.config.ts";
+
+@font-face {
+  font-family: "Inter";
+  src: url("/fonts/inter.woff2") format("woff2");
+  font-weight: 400 900;
+  font-style: normal;
+  font-display: swap;
+}
 
 :root {
   --background: 0 0% 100%;

@@ -21,9 +21,7 @@ const { title, description, bodyClass } = Astro.props;
     <BaseHead title={title} description={description} />
     <LoadingIndicator
       color="hsl(var(--foreground))"
-      animationDuration={150}
       height="6px"
-      threshold={false}
     />
   </head>
   <body class={cn("flex flex-col min-h-screen", bodyClass)}>
