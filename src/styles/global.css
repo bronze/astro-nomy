@@ -52,7 +52,9 @@
   --radius: 0.5rem;
   --ds-shadow-border: 0 0 0 1px hsla(0, 0%, 100%, 0.145);
 }
-
+@theme {
+  --color-foreground: hsl(var(--foreground));
+}
 @font-face {
   font-family: "CalSans Semibold";
   src: url("/fonts/calsans-semibold.woff2") format("woff2");

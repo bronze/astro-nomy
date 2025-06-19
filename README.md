@@ -82,7 +82,7 @@ The original project was an experiment to see how a modern app (with features li
 - [x] ~Implement **newsletter & waitlist with Resend API**~
 - [ ] Build **blog with Supabase** (work on it)
 - [ ] Build **ecommerce pages** (work on it)
-- [ ] Add search support for blog *(researching Pagefind vs Fuse.js options)*
+- [ ] Add search support for blog _(researching Pagefind vs Fuse.js options)_
 - [ ] Add OG image for blog and others
 - [ ] Add SEO component & metadata
 - [ ] Subscriptions using Stripe (or Lemon Squeezy?)
@@ -127,3 +127,21 @@ pnpm run dev
 ## License
 
 Licensed under the [MIT license](https://github.com/mickasmt/astro-nomy/blob/main/LICENSE.md).
+
+## References
+
+Pagefind
+
+- https://www.hdwatts.com/blog/pagefind-static-search-astro-vercel-react/
+
+Scroll Progress
+
+- https://www.rafay99.com/blog/search-on-static-site/
+
+- https://michael-andreuzza.medium.com/create-a-scroll-progress-bar-with-tailwind-css-and-javascript-36f2b2067ca6
+
+- https://lexingtonthemes.com/tutorials/how-to-create-a-scroll-progress-bar-with-tailwind-css-and-javascript/
+
+Loading
+
+- https://github.com/florian-lefebvre/astro-loading-indicator
